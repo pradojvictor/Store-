@@ -2,7 +2,7 @@ import { render, screen } from "@testing-library/react"
 
 import Main from "./index"
 
-describe("<main/>", () => {
+describe("<main />", () => {
   it("should render the heading", () => {
     const { container } = render(<Main />)
 
